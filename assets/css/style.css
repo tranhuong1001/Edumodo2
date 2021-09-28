@@ -31,7 +31,7 @@
 .wrapper {
     width: var(--wrapper);
     margin: auto;
-    background-image: url('/assets/img/Head/slider.png');
+    background-image: url('../img/Head/slider.png');
     background-size: 1920px;
     background-repeat: no-repeat;
 }
@@ -322,7 +322,7 @@
 /* content */
 
 .body3 {
-    background-image: url('/assets/img/Body3-Apply/background.png');
+    background-image: url('../img/Body3-Apply/background.png');
     height: 25rem;
     margin-top: -300px;
 }
@@ -356,7 +356,7 @@
     margin-top: -100px;
     width: 28.7rem;
     height: 35rem;
-    background-image: url('/assets/img/Body3-Apply/formApply.png');
+    background-image: url('../img/Body3-Apply/formApply.png');
 }
 
 .form .form__content {
