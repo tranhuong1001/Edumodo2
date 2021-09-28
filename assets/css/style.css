@@ -213,11 +213,12 @@
 
 .body2 {
     position: relative;
+    height: 43.5rem;
 }
 
 .body2__Bg {
     position: absolute;
-    bottom: 14rem;
+    top: -22rem;
     z-index: -1;
 }
 
@@ -233,7 +234,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-bottom: -18.7rem;
+    height: 43.5rem;
 }
 
 .content__video {
@@ -248,7 +249,7 @@
 
 .content--btn {
     position: absolute;
-    bottom: 44rem;
+    bottom: 27rem;
     right: 54rem;
 }
 
@@ -387,6 +388,11 @@
     font-size: 14px;
     font-family: var(--font--worksans);
     color: var(--content--color);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
 }
 
 
