@@ -233,6 +233,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    margin-bottom: -18.7rem;
 }
 
 .content__video {
@@ -324,7 +325,6 @@
 .body3 {
     background-image: url('../img/Body3-Apply/background.png');
     height: 25rem;
-    margin-top: -300px;
 }
 
 .body3__content {
@@ -493,6 +493,11 @@
     border-radius: 100px;
 }
 
+.detail--btn:hover {
+    background-color: var(--heading--color);
+    cursor: pointer;
+}
+
 .detail--btn a {
     text-decoration: none;
     font-size: 14px;
@@ -550,6 +555,10 @@
     margin-right: 4px;
 }
 
+.news--timeline i:hover {
+    color: var(--main--color);
+}
+
 
 /* footer */
 
@@ -596,8 +605,9 @@
     margin: 0 6px;
 }
 
-.footer__edu--block1 .facebook {
+.footer__edu--block1 i:hover {
     color: #0089fd;
+    cursor: pointer;
 }
 
 
@@ -706,6 +716,10 @@ input[type="email"]:focus {
     color: #fff;
     width: 85px;
     cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: var(--heading--color);
 }
 
 
